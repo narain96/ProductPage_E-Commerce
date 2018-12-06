@@ -1,0 +1,23 @@
+@media only screen and (min-width: 992px) {
+  .custom-layout-row{
+    flex-flow: row;
+  }
+  .custom-layout-col{
+    flex-flow: column;
+  }
+  .position-custom{
+      position: sticky;
+      top: 5px;
+      bottom: 0;
+      z-index: 2;
+      -webkit-align-self: flex-start;
+      -ms-flex-item-align: start;
+      align-self: flex-start;
+  }
+}
+.line-through{
+  text-decoration: line-through;
+}
+h6, h3, h5{
+  font-weight: bold;
+}
